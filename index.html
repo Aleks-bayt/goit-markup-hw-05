@@ -360,10 +360,23 @@
                             </svg></a></li>
                 </ul>
             </div>
+            <div class="footer-form">
+                <p class="footer-form-text">Subscribe</p>
+                <form class="footer-form-items">
+                    <label for="" class="footer-form-label">
+                        <input type="email" name="user-email" class="footer-form-input">
+                        <button type="submit" class="footer-form-btn">Subscribe
+                            <svg class="footer-form-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-Frame-3"></use>
+                            </svg>
+                        </button>
+                    </label>
+                </form>
+            </div>
         </div>
     </footer>
     <!-- is-open -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
         <div class="modal">
             <button type="button" class="modal-btn-close">
                 <svg class="modal-btn-icon" width="8" height="8">
@@ -401,11 +414,12 @@
                 </div>
                 <div class="modal-field-area">
                     <label for="user-comment" class="modal-label">Comment</label>
-                    <textarea name="user-comment" id="user-comment" placeholder="Text input" class="modal-comment">                        
+                    <textarea name="user-comment" id="user-comment" placeholder="Text input" class="modal-comment">
                     </textarea>
                 </div>
                 <div class="modal-check">
-                    <input type="checkbox" name="user-privacy" value="true" class="modal-check-input visually-hidden" id="user-privacy">
+                    <input type="checkbox" name="user-privacy" value="true" class="modal-check-input visually-hidden"
+                        id="user-privacy">
                     <label for="user-privacy" class="modal-check-label">
                         <span class="check-item">
                             <svg class="chek-ikon" width="10" height="8">
