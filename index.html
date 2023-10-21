@@ -362,7 +362,8 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop">
+    <!-- is-open -->
+    <div class="backdrop is-open">
         <div class="modal">
             <button type="button" class="modal-btn-close">
                 <svg class="modal-btn-icon" width="8" height="8">
@@ -402,6 +403,17 @@
                     <label for="user-comment" class="modal-label">Comment</label>
                     <textarea name="user-comment" id="user-comment" placeholder="Text input" class="modal-comment">                        
                     </textarea>
+                </div>
+                <div class="modal-check">
+                    <input type="checkbox" name="user-privacy" value="true" class="modal-check-input visually-hidden" id="user-privacy">
+                    <label for="user-privacy" class="modal-check-label">
+                        <span class="check-item">
+                            <svg class="chek-ikon" width="10" height="8">
+                                <use href="./images/icons.svg#icon-Property-1click"></use>
+                            </svg>
+                        </span>I accept the terms and conditions of the
+                        <a href="#" class="check-link">Privacy Policy</a>
+                    </label>
                 </div>
                 <button type="submit" class="modal-send">Send</button>
             </form>
