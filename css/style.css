@@ -526,6 +526,10 @@ address {
   color: #ffffff;
 
 }
+.footer-form-input:hover {
+border-color: #4D5AE5;
+}
+
 .footer-form-btn{
   min-width: 165px;
   height: 40px;
